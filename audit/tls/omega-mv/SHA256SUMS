@@ -52,7 +52,7 @@ bbaabc383b5fcea362f71edfa24c310da019865d6ffee4079c4db71ba55b7e9f  ./bench/wolfra
 bf98736ee2b9084339f99edb647fe0a31fcc287c0485849b1e94ac1d8d44099a  ./bench/wolfram-out-cpu16-chacha.json
 6ec49aea73636e012b0c63d5422584eedc00440a9114d865169ca30039d9c552  ./bench/wolfram-out-cpu2-aes128gcm.json
 b2f4312ef26791187d5d2ef59d42ab22b4684dfad0284103edc7174d8a4fd278  ./bench/wolfram-out-cpu2-chacha.json
-7cdb4c05ae1259b9831de8ea366a47c8d1b5fcb0dd665d5a6ad956fb75d6b901  ./COSTS.md
+6cd73e0457cc4a8678cac4e04d951daedf0ce29538d4d9b4179471a85d808f88  ./COSTS.md
 f2d6c216e0112217a5e9bfe62230d763439604381553db424aee406af9b34748  ./fips/entropy/run1/iid.txt
 06ce8ed3cd8591bfc73598db61bff1d2a62000e41bd465af8870a775dc52a4d4  ./fips/entropy/run1/non_iid.txt
 5e336f925dcbcae19e9d4fd1f980b62bc166e8ae4b91352feb078b93661fcd74  ./fips/entropy/run1/restart_iid.txt
@@ -90,7 +90,7 @@ a527aa433df76e9d41a476ca9d17f19ff1aa37bf3ff9a8c03c41fd21b0eaac84  ./fips/timing/
 b7e0ff3a9385c94dab9366fd3f307cbe1700ec478a11be9ce81b2178efdec484  ./handshake-cost/v500.txt
 f141d0f0fa76870a9c43e975c3f974cb142003cbf2670d98c8beb9988476e981  ./handshake-cost/x1000.txt
 673f88e119457cf8c914774c1a1bf2df4ecd3d76b1d99ba9e1f26e6523a3426f  ./handshake-cost/x1.txt
-61696137967b298c6bd805a9e103fe56e0e9e4a945d1615ae0675803a7f1902b  ./INDUSTRY.md
+f6151605c03d47172c430bcd2304f3d27c4fc77a4464fd3237fc8154ed2ddfd9  ./INDUSTRY.md
 fd85036d396d4a5e300c74ee8639c25a5ee780f04f1740d237cce55797edfc4b  ./integrated/aesgcm.log
 424aff124e1d26f8714197be732047d4deee347ff9a0ef7a3b0ae11a0211400c  ./integrated/chacha.log
 0c41e3bbd609f470471a9a4f8325b74d3cf46986ac1f26c2b0d8b5422d70bb80  ./integrated/drbg.log
@@ -108,7 +108,7 @@ ba6c5857e96b7ae2ac0473530af231c98de1d7a5a9c2b50848c8a6536ac18806  ./integrated/x
 1f556d27a449b767f4606274154e7001fcf356f6b2d711dac9755c6091528dfa  ./nodelay/net-parity-nodelay.log
 1a506ac5767a1fcb9ffc7db22474dd35d318d943a3d229848ca502b946e6afa7  ./nodelay/tls-run-nodelay.txt
 edf4ca252e4a2b06707104b6023ffe1294ac41fdc240526730746aef35288a4a  ./omeganext-crypto-hostwords.md
-486feef9bd79373cfe974d3f8fa0f3acbed577557d315285c9b3cb4ea86e6b9c  ./READINESS.md
+310d2a4ab5e7782bac9aab2245b94598fefe974ea315b33284dcf007325347b8  ./READINESS.md
 fecf17a7e8519e80adba5c68ed276ec520c516610e5fded27e7ceb593642a63d  ./README.md
 7539d6f6778e61214761ef67207e2796992f9a5fcc8cc400e41e03d9235c1259  ./repro/repro-build.sh
 63a4cd9b40e0e78d5a1f286fc8932591f02ab6dfd9e481577ce8c3e5beded44f  ./repro/run.log

@@ -27,7 +27,7 @@ refuses a stamp that claims a better verdict than its own contents allow: an ope
 finding forces `FAIL`; any NOT_RUN item, incomplete check, untriaged hit, open finding, incomplete
 review or missing review caps it at `PASS-WITH-NOTES`.
 
-Upstream forks are `UPSTREAM-FORK`, pinned to the upstream merge-base; only our diff is checked and
+Upstream forks are `UPSTREAM-FORK`, pinned to the upstream merge-base; only my diff is checked and
 reviewed. The 11 private repositories appear only as `private-01` .. `private-11` with a salted
 SHA-256 commitment; their stamps are self-reported, because nobody outside can re-run them.
 
@@ -159,7 +159,7 @@ Problems the audit found in already-published claims. Private repositories appea
 ## Live line count
 
 `loc/latest.json` is the count of first-party code in every public repository at its current HEAD,
-made with scc at the version in `loc/repos.json`. Forks count only the lines we added on top of the
+made with scc at the version in `loc/repos.json`. Forks count only the lines I added on top of the
 upstream merge-base. `loc/history.jsonl` gains a line only when a count changes. Private
 repositories are not counted here.
 

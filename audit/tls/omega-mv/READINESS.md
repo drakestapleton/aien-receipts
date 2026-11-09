@@ -1,8 +1,8 @@
 # om/tls: FIPS 140-3 readiness checklist
 
 Wording: om/tls is **tested against the FIPS 140-3 / CAVP test methods, not NIST-validated**. READY
-means our own evidence covers the item and a lab would have something to test; it does not mean a lab
-agreed. GAP is work we can do ourselves. BLOCKER needs money, a signature or an outside party.
+means my own evidence covers the item and a lab would have something to test; it does not mean a lab
+agreed. GAP is work I can do myself. BLOCKER needs money, a signature or an outside party.
 
 | # | item (FIPS 140-3 area / NIST document) | state | evidence or reason |
 |---|---|---|---|

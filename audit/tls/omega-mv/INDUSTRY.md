@@ -122,7 +122,7 @@ NIST cost-recovery fees, charged to the lab and passed on to the vendor, effecti
 - **Demo server:** a free sandbox that anyone can request access to, for practice. Results there are not certificates.
 - **Production server:** "only for accredited CST labs", and a lab must first show proficiency on Demo ([How to access ACVTS](https://csrc.nist.gov/projects/cryptographic-algorithm-validation-program/how-to-access-acvts)). Access needs a TLS client certificate plus a TOTP one-time password ([ACVP protocol docs](https://pages.nist.gov/ACVP)).
 - **Tools:** [NIST ACVP-Server](https://github.com/usnistgov/ACVP-Server), Cisco [libacvp](https://github.com/cisco/libacvp), and BoringSSL's [acvptool / ACVP.md](https://boringssl.googlesource.com/boringssl/+show/main/util/fipstools/acvp/ACVP.md). Go reuses BoringSSL's module-wrapper protocol for its own tests (`src/crypto/internal/fips140test/acvp_test.go`).
-- What this means for Omega: we can run NIST's published ACVP test vectors through Omega's AES-GCM, ChaCha20-Poly1305 (not a FIPS algorithm), X25519 (not FIPS-approved for key agreement; [UNVERIFIED] whether SP 800-186 changes this for TLS use), ECDSA and RSA code, and publish the results. We cannot call that a CAVP certificate. Only a lab can submit to production.
+- What this means for Omega: I can run NIST's published ACVP test vectors through Omega's AES-GCM, ChaCha20-Poly1305 (not a FIPS algorithm), X25519 (not FIPS-approved for key agreement; [UNVERIFIED] whether SP 800-186 changes this for TLS use), ECDSA and RSA code, and publish the results. I cannot call that a CAVP certificate. Only a lab can submit to production.
 
 ---
 

@@ -8,7 +8,7 @@ Shared rules: read https://www.aienos.com/agents/RULES.md first. This file adds 
 
 - Applies to the whole repository.
 - `<repo>/<sha>/bundle.json` directories are published data. `<repo>` is the repository name under `aien-dev`; `<sha>` is the full 40-character commit hash that was verified. A commit that has not been verified has no directory.
-- Hand-written files are only `README.md`, `README.zh-CN.md` (its Simplified Chinese translation), `docs/verify-one-bundle.md`, `docs/receipt-index.md`, `tools/replay_receipt.py`, `tests/test_replay.py`, `LICENSE`, `NOTICE` and this file. Documentation changes to those are the only changes an agent may propose.
+- Hand-written files are only `README.md`, `docs/verify-one-bundle.md`, `docs/receipt-index.md`, `tools/replay_receipt.py`, `tests/test_replay.py`, `LICENSE`, `NOTICE` and this file. Documentation changes to those are the only changes an agent may propose.
 - `index/receipt_index.json` is written only by `tools/replay_receipt.py admit` (see `docs/receipt-index.md`). Never type a digest, commit or verdict into it by hand.
 - Bundles are written only by the AIEN verification pipeline on the DGX Spark (commits titled `publish N bundle(s)`). An agent never adds, edits, moves, reformats or deletes a bundle, not even to fix a typo or pretty-print JSON.
 

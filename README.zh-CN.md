@@ -1,5 +1,9 @@
 # aien-receipts
 
+<!-- languages -->
+[English](README.md) · **简体中文**
+<!-- /languages -->
+
 AIEN 各仓库已发布的签名验证摘要。当 Spark 评判器（运行在本项目 NVIDIA DGX Spark 上的验证流水线）检查一个提交时，它会对一个包进行签名，并把这个包发布到这里。读者可以验证其签名、提交绑定、声明的门禁判定以及凭证摘要。这个凭证架**不**包含底层各门禁的凭证正文、命令、stdout、stderr 或原始日志；仅凭签名无法重新运行或审计这些测试。本仓库只存放数据：没有代码，没有工作流，也没有密钥。唯一的例外是 [`audit/`](audit/README.md) 下的组织审计，它自带检查器和两个工作流。
 
 本仓库为 [Sovereign Intelligence (SI)](https://github.com/aien-dev/sovereign-intelligence) 提供支撑。本项目提出的每一项主张，都应能追溯到这个凭证架上的某个包。

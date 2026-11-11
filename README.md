@@ -1,3 +1,7 @@
+<!-- languages -->
+**English** · [简体中文](README.zh-CN.md)
+<!-- /languages -->
+
 # aien-receipts
 
 Published signed verification summaries for the AIEN repositories. When the Spark judge (the

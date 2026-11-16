@@ -52,7 +52,7 @@ bbaabc383b5fcea362f71edfa24c310da019865d6ffee4079c4db71ba55b7e9f  ./bench/wolfra
 bf98736ee2b9084339f99edb647fe0a31fcc287c0485849b1e94ac1d8d44099a  ./bench/wolfram-out-cpu16-chacha.json
 6ec49aea73636e012b0c63d5422584eedc00440a9114d865169ca30039d9c552  ./bench/wolfram-out-cpu2-aes128gcm.json
 b2f4312ef26791187d5d2ef59d42ab22b4684dfad0284103edc7174d8a4fd278  ./bench/wolfram-out-cpu2-chacha.json
-6cd73e0457cc4a8678cac4e04d951daedf0ce29538d4d9b4179471a85d808f88  ./COSTS.md
+b4f1e085630a1db254d7cec0bde537ce94951cd402941d3568150aea54b5b925  ./COSTS.md
 f2d6c216e0112217a5e9bfe62230d763439604381553db424aee406af9b34748  ./fips/entropy/run1/iid.txt
 06ce8ed3cd8591bfc73598db61bff1d2a62000e41bd465af8870a775dc52a4d4  ./fips/entropy/run1/non_iid.txt
 5e336f925dcbcae19e9d4fd1f980b62bc166e8ae4b91352feb078b93661fcd74  ./fips/entropy/run1/restart_iid.txt

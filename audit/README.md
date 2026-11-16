@@ -1,13 +1,13 @@
 # Org audit of aien-dev
 
 > "We believe that an open source community is only as open as we are, as transparent as we are.
-> Transparency will set us free." (the project owner, 2026-10-26)
+> Transparency will set us free." (my words, 2026-10-26)
 
 This directory publishes what has been checked in every `aien-dev` repository, what has not, and
 how anyone can re-check it. It is separate from the signed Spark bundles in the rest of this
 repository: nothing here edits or replaces a bundle.
 
-Scope and approval: the owner approved workflows for this subtree on 2026-10-26. The scope is recorded in
+Scope and approval: I approved workflows for this subtree on 2026-10-26. The scope is recorded in
 the ADR 0033 addendum, aien-dev/aien-architecture-mv#337. Until that addendum merges, this subtree
 is a proposal.
 

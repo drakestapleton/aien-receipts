@@ -87,7 +87,7 @@ Neither a signature-only check nor a green advisory PR check replaces the full s
   given `<repo>/<sha>` is published once and never rewritten.
   A new verification of the same commit is a new commit here that must carry the same bytes.
 - No workflows run on the bundles. The only workflows are the two org-audit jobs scoped to
-  `audit/` (approved by the owner on 2026-10-26; ADR 0033 addendum, aien-dev/aien-architecture-mv#337).
+  `audit/` (I approved them on 2026-10-26; ADR 0033 addendum, aien-dev/aien-architecture-mv#337).
 - Published by the AIEN verification pipeline on the DGX Spark; see the `aien-architecture`
   repository for the pipeline doctrine (ADR 0033, manifest v2).
 

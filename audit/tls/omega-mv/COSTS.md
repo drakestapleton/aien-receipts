@@ -1,4 +1,4 @@
-# Steps that need the owner's money or signature
+# Steps that need my money or signature
 
 Only published figures are quoted, each with its source. Nothing here has been started, signed or paid.
 Background and more sources: INDUSTRY.md.

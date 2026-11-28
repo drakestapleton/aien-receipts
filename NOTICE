@@ -8,21 +8,12 @@ The Omega language (omega-mv), CUDA++ GPU toolchain (CUDApp), Aienux kernel,
 INTERPLANE protocol, and FORGE realization layer (physics-mv) are foundational
 components designed and architected by Drake Stapleton.
 
-TRADEMARK NOTICE:
-Pursuant to Section 6 of the Apache License, Version 2.0, this license does not
-grant permission to use the trade names, trademarks, service marks, or product
-names of the Licensor. "AIEN", "AienOS", "Aienux", "Omega", "CUDA++", "CUDApp",
-"INTERPLANE", and "FORGE" are trademarks of Drake Stapleton. Any derivative
-works or redistributions modified from the canonical upstream repositories
-(https://github.com/aien-dev) may not be branded or marketed as official
-"AienOS Verified" or "Omega" distributions without express written permission.
-
 SCOPE:
 The Apache License applies to the repository contents. Published receipts are
 evidence of runs at the commits they name; the license does not alter what they
 record.
 
-"Sovereign Intelligence", "AienOS", "Aien", "aienux", "Interplane",
-"Interplane Strand Exchange", "Omega Helix", "Omega Studio",
-"Omega Verdant", "Omegese", and "Hop" are trademarks of M. Drake Stapleton.
-Section 6 of the Apache License does not grant trademark rights.
+"AienOS", "Aien", "aienux", "Interplane", "Interplane Strand Exchange",
+"Omega Helix", "Omega Verdant", "Omegese", "HopBot", and
+"Omega Studio" (TM) are trademarks or brand designations of M. Drake Stapleton.
+Section 6 of the Apache License, Version 2.0 does not grant trademark rights.
